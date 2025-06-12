@@ -1,12 +1,68 @@
-# React + Vite
+# 🎓 Edusity - Online Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo**: [https://edusity-pavithra.netlify.app](https://edusity-pavithra.netlify.app)
 
-Currently, two official plugins are available:
+Edusity is a modern and responsive online education platform built using React.js. It provides users with a sleek interface to browse courses, view instructors, and explore educational content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📚 Course Listings – Explore a variety of online courses
+- 👩‍🏫 Top Instructors – Learn from experts in the field
+- 🎨 Stylish UI – Clean and elegant design
+- ⚡ Fast Routing – Powered by React Router
+- 📱 Fully Responsive – Optimized for mobile and desktop
+- 🖼️ Hero Section – Eye-catching landing experience
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Styling**: CSS3
+- **Deployment**: Netlify
+
+---
+
+## 📁 Folder Structure
+
+src/
+│
+├── Assets/ # Images and icons
+├── Components/ # Reusable UI components (Navbar, Hero, Courses, Footer)
+├── Pages/ # Page views like Home, About
+├── App.jsx # Main app component with routes
+└── index.js # React DOM rendering
+
+---
+
+## 📦 Installation & Setup (For Developers)
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/PavithraJothibass/edusity.git
+cd edusity
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+The app will run at http://localhost:3000
+
+🙋‍♀️ About the Developer
+Pavithra Jothi Bass
+Full Stack Developer | Passionate about building modern web applications
+
+💼 LinkedIn
+
+📧 pavithrajothi2002@gmail.com
+
+📄 License
+This project is licensed under the MIT License - feel free to use and modify for educational purposes.
+
